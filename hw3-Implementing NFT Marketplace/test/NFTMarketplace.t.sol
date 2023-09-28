@@ -33,7 +33,7 @@ contract NFTMarketplaceTest is Test {
         emit log_named_uint("Listing price is now", marketplace.getListingPrice());
         
         // this should revert
-        vm.expectRevert(bytes("Only contract owner can update listing price."));
+        vm.expectRevert(bytes("Ownable: caller is not the owner"));
         vm.prank(address(1));
         marketplace.updateListingPrice(0.030 ether);
 
