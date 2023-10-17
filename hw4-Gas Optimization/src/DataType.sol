@@ -11,11 +11,11 @@ contract DataType {
     function goodDataType() external returns (uint) {
         uint256 startingGas = gasleft();
         
-        /** YOUR CODE HERE */
+        uint8 numberOneOptimized = 0;
+        uint8 numberTwoOptimized = 0;
 
-
-
-
+        numberOneOptimized = 10;
+        numberTwoOptimized = 20;
 
         lastGasUsedOptimized = startingGas - gasleft();
         return lastGasUsedOptimized;

@@ -14,8 +14,7 @@ contract ExternalCallOptimization {
     }
 
     function goodGetBalance() public view returns (uint256) {
-        /** YOUR CODE HERE */
-
+        return address(this).balance;
     }
 
     // function to deposit Ether into the contract for testing

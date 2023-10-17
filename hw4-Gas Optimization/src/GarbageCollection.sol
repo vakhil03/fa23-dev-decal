@@ -11,8 +11,7 @@ contract GarbageCollection {
 
     function getNumberAndCollect() public returns (uint256) {
         uint256 num = number;
-        /** YOUR CODE HERE */
-
+        number = 0;
         return num;
     }
 

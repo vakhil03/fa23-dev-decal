@@ -18,11 +18,9 @@ contract ContractOne {
 }
 
 contract ContractTwo {
-     /** YOUR CODE HERE */
-     /** Hint: change the declarations of the below variables. */
     uint8 public numberOne;
-    uint256 public bigNumber;
     uint8 public numberTwo;
+    uint256 public bigNumber;
 
     function setValues(uint8 numOne, uint8 numTwo, uint256 bigNum) public {
         numberOne = numOne;

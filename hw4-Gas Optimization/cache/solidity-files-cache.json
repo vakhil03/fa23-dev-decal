@@ -804,8 +804,8 @@
       }
     },
     "src/Addition.sol": {
-      "lastModificationDate": 1695348711435,
-      "contentHash": "3c7ab38ab56c3da2546634848b9a1db8",
+      "lastModificationDate": 1696468962996,
+      "contentHash": "c66baf183767544158b19b974524deeb",
       "sourceName": "src/Addition.sol",
       "solcConfig": {
         "settings": {
@@ -886,8 +886,8 @@
       }
     },
     "src/ArrayLength.sol": {
-      "lastModificationDate": 1695607025454,
-      "contentHash": "2256943b24bf3dcc9796caf6078d7cfb",
+      "lastModificationDate": 1696486820947,
+      "contentHash": "c514664a67a889414ee5fa6aa544529e",
       "sourceName": "src/ArrayLength.sol",
       "solcConfig": {
         "settings": {
@@ -927,8 +927,8 @@
       }
     },
     "src/CDMem.sol": {
-      "lastModificationDate": 1695608753169,
-      "contentHash": "5649c2718b3c85566a0c9040bfbb6573",
+      "lastModificationDate": 1696469171911,
+      "contentHash": "873561568c2e9095d98657dbf5094e53",
       "sourceName": "src/CDMem.sol",
       "solcConfig": {
         "settings": {
@@ -968,8 +968,8 @@
       }
     },
     "src/DataType.sol": {
-      "lastModificationDate": 1695607108058,
-      "contentHash": "fde43beb7fde0781a099bacce0b07f6b",
+      "lastModificationDate": 1696469586010,
+      "contentHash": "80af788cd792114b67b433ed0f0495d3",
       "sourceName": "src/DataType.sol",
       "solcConfig": {
         "settings": {
@@ -1009,8 +1009,8 @@
       }
     },
     "src/ExternalCallOptimization.sol": {
-      "lastModificationDate": 1695608442526,
-      "contentHash": "25c23b464871c265305fa1922d71e4b7",
+      "lastModificationDate": 1696471665765,
+      "contentHash": "fcec4e4322d3fe40c461ff6e231fbed6",
       "sourceName": "src/ExternalCallOptimization.sol",
       "solcConfig": {
         "settings": {
@@ -1050,8 +1050,8 @@
       }
     },
     "src/GarbageCollection.sol": {
-      "lastModificationDate": 1695607829224,
-      "contentHash": "0fd2312f61f4762d1f9b88d081f95435",
+      "lastModificationDate": 1696468839330,
+      "contentHash": "61505d24bbdab54c525d5aab6d2ef93e",
       "sourceName": "src/GarbageCollection.sol",
       "solcConfig": {
         "settings": {
@@ -1091,8 +1091,8 @@
       }
     },
     "src/NestedIf.sol": {
-      "lastModificationDate": 1695608066762,
-      "contentHash": "eab06e59167fe3211b83fe2d22f2bf7a",
+      "lastModificationDate": 1696468838658,
+      "contentHash": "c5b20f76fba0b8aebe38b39d3ec41c25",
       "sourceName": "src/NestedIf.sol",
       "solcConfig": {
         "settings": {
@@ -1176,7 +1176,7 @@
       }
     },
     "test/Addition.t.sol": {
-      "lastModificationDate": 1695609981437,
+      "lastModificationDate": 1695875684793,
       "contentHash": "611ce5a715d9c4d44f401057df6f5d0f",
       "sourceName": "test/Addition.t.sol",
       "solcConfig": {
@@ -1298,7 +1298,7 @@
       }
     },
     "test/ArrayLength.t.sol": {
-      "lastModificationDate": 1695609981438,
+      "lastModificationDate": 1695875684793,
       "contentHash": "f9b0cbc61437cbbe12a0a6e7bdcb9bfc",
       "sourceName": "test/ArrayLength.t.sol",
       "solcConfig": {
@@ -1359,8 +1359,8 @@
       }
     },
     "test/CDMem.t.sol": {
-      "lastModificationDate": 1695609981438,
-      "contentHash": "5f708e3c2a37b5de7ba76a8ef064834b",
+      "lastModificationDate": 1696469173515,
+      "contentHash": "a65452e93cbddf0653143a5bdd6f0523",
       "sourceName": "test/CDMem.t.sol",
       "solcConfig": {
         "settings": {
@@ -1420,7 +1420,7 @@
       }
     },
     "test/DataType.t.sol": {
-      "lastModificationDate": 1695609981439,
+      "lastModificationDate": 1695875684793,
       "contentHash": "01a9788c89bffc039c205f17f0f92a67",
       "sourceName": "test/DataType.t.sol",
       "solcConfig": {
@@ -1481,7 +1481,7 @@
       }
     },
     "test/ExternalCallOptimization.t.sol": {
-      "lastModificationDate": 1695609981439,
+      "lastModificationDate": 1695875684793,
       "contentHash": "528c02407bea6829881f1520d1437fb6",
       "sourceName": "test/ExternalCallOptimization.t.sol",
       "solcConfig": {
@@ -1542,7 +1542,7 @@
       }
     },
     "test/GarbageCollection.t.sol": {
-      "lastModificationDate": 1695609981440,
+      "lastModificationDate": 1695875684793,
       "contentHash": "40f384d643ab40a1cb84a79c6301ffd7",
       "sourceName": "test/GarbageCollection.t.sol",
       "solcConfig": {
@@ -1603,7 +1603,7 @@
       }
     },
     "test/NestedIf.t.sol": {
-      "lastModificationDate": 1695609981440,
+      "lastModificationDate": 1695875684793,
       "contentHash": "60e6026062f65022dba899345e613103",
       "sourceName": "test/NestedIf.t.sol",
       "solcConfig": {

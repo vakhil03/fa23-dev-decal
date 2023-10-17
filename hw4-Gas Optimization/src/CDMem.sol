@@ -10,6 +10,10 @@ contract CDMem {
         }
     }
 
-    /** YOUR CODE HERE */
-    /** Hint: implement the same function above, but change something in the function header. */
+    function addCD(uint[] memory myArray) external pure returns (uint sum) {
+        uint length = myArray.length;
+        for (uint i; i < length; i++) {
+            sum += myArray[i];
+        }
+    }
 }

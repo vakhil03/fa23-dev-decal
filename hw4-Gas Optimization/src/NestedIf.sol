@@ -12,8 +12,10 @@ contract NestedIf {
     }
 
     function goodNesting(uint256 number) public pure returns (string memory) {
-        /** YOUR CODE HERE */
-
+        if (number > 0 && number < 100 && number != 50) {
+        return "Expected Number";
+    } else {
         return "Unexpected Number";
+        }
     }
 }

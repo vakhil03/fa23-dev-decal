@@ -8,7 +8,6 @@ contract Arithmetic {
     }
 
     function bitwiseDivide(uint256 number) public pure returns (uint256) {
-         /** YOUR CODE HERE */
-
+        return number >> 1;
     }
 }

@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: MIT
+pragma solidity >= 0.8.7;
+
 contract Addition {
 
     uint256 public number = 1;
@@ -15,7 +17,8 @@ contract Addition {
 
     function additionOptimized(uint256 value) public returns (uint256) {
         uint256 startingGas = gasleft();
-        /** YOUR CODE HERE */
+        uint256 result = number + value;
+        number = result;
         lastGasUsedOptimized = startingGas - gasleft();
         return lastGasUsedOptimized;
     }

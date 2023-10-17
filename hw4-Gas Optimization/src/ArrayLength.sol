@@ -23,9 +23,11 @@ contract ArrayLength {
 
     function goodCaching() public returns (uint256) {
         uint256 startingGas = gasleft();
-        /** YOUR CODE HERE */
 
-
+        for (uint256 i; i < myArray.length; i++) {
+            i++;
+        }
+        
         lastGasUsedOptimized = startingGas - gasleft();
         return lastGasUsedOptimized;
     }
